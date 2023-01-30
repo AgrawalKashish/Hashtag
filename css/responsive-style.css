@@ -57,6 +57,11 @@
         font-size: 15px;
         font-weight: 700;
     }
+
+    /* banner */
+    .banner_wrapper .banner-title {
+        font-size: 50px;
+    }
 }
 
 @media(max-width:1160px) {
@@ -94,6 +99,15 @@
     .header_wrapper .nav-item .nav-link {
         font-size: 14px;
         font-weight: 500;
+    }
+
+    /* 5 About */
+    .about_wrapper .about_number {
+        margin: 20px auto;
+    }
+
+    .about_wrapper .about_title {
+        font-size: 24px;
     }
 }
 
@@ -154,7 +168,7 @@
     #contact {
         margin-left: auto;
         margin-right: auto;
-        width: 10%;
+        max-width: fit-content;
         color: rgb(14, 14, 138);
         border: 3px solid rgb(14, 14, 138);
     }
@@ -162,7 +176,7 @@
     #free-trial {
         margin-left: auto;
         margin-right: auto;
-        width: 10%;
+        max-width: fit-content;
         border-radius: 6px;
         color: white;
         background-color: rgb(14, 14, 138);
@@ -183,8 +197,25 @@
     .header_wrapper .navbar-collapse {
         background: var(--bg-white);
     }
+
+    /* banner */
+    .banner_wrapper .banner-title {
+        font-size: 36px;
+    }
 }
 
 @media(max-width: 767px) {
+
     /* banner */
+    .banner_wrapper {
+        padding: 100px 0 100px;
+    }
+
+    .banner_wrapper .row {
+        flex-direction: column-reverse;
+    }
+
+    .banner_wrapper .learn-more-btn-section {
+        justify-content: center;
+    }
 }
