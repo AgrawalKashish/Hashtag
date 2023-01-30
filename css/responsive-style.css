@@ -218,4 +218,20 @@
     .banner_wrapper .learn-more-btn-section {
         justify-content: center;
     }
+
+    /* 7 Pricing */
+    .free_trial .free_title {
+        font-size: 24px;
+    }
+
+    /* 10 FAQs */
+    .faq_wrapper .accordion-button {
+        font-size: 18px;
+    }
+
+    /* 11 Footer */
+    .footer_wrapper .footer_logo img {
+        max-width: 50%;
+    }
+
 }
